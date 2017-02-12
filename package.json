@@ -1,0 +1,16 @@
+{
+  "name": "cognito-idp-creds",
+  "version": "0.1.0",
+  "description": "Authenticate against a cognito user pool and export the temporary credentials.",
+  "main": "cognito-idp-creds.js",
+  "scripts": {
+    "start": "node cognito-idp-creds.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gildas Le Nadan",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "amazon-cognito-identity-js-node": ">=0.0.3",
+    "aws-sdk": ">=2.12.0"
+  }
+}
